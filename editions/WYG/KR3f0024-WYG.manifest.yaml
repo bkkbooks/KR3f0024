@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR3f0024/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3f0024/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 天步真原
+  date: '2015-08-24 23:10:03.776612'
+  source:
+    repository: kanripo
+    path: KR3f0024
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3f0024_000-WYG.yaml, hash: 'sha256:550225db2891a6d499e1ec46f9facf915cc05e4c9285fd98bce3191c2ae293ac'}
+  - {seq: 1, filename: KR3f0024_001-WYG.yaml, hash: 'sha256:3bb1d7a3131da1dbd684ed8394e5d824ebc0b7db855d4964d6564c696797b53e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3f0024_000-WYG.markers.yaml, hash: 'sha256:3443cd5300768df989cb20641d11a564c43355b127b994edc784c8ae482606bd'}
+  - {seq: 1, role: markers, filename: assets/KR3f0024_001-WYG.markers.yaml, hash: 'sha256:cd1b6e44a35aab8f837970b33a73520a400b5b804c7b9a0e462c9c5aa77b56bd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3f0024_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 368
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3f0024_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 5182
+  label: 天步真原
+  type: section
+  level: 1
+hash: sha256:ceaaf05cd2dcc46be9d12e998c4ac096323b4fe7be26d8fd2b5a0ac3c428122c
